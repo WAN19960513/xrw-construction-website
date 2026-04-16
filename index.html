@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安徽新睿为建筑工程有限公司 - 官方网站</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        /* 顶部导航栏 */
+        header {
+            background: linear-gradient(90deg, #0F2027 0%, #2C5364 100%);
+            color: #fff;
+            padding: 30px 50px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header h1 {
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        header p {
+            font-size: 17px;
+            opacity: 0.9;
+            letter-spacing: 1.5px;
+        }
+        /* 主体容器 */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        /* 板块样式 */
+        section {
+            background: #fff;
+            border-radius: 16px;
+            padding: 45px;
+            margin-bottom: 35px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+            transition: all 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            font-size: 28px;
+            color: #2C5364;
+            margin-bottom: 30px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #2C5364;
+            display: inline-block;
+            font-weight: 600;
+        }
+        section p {
+            font-size: 17px;
+            color: #444;
+            margin-bottom: 18px;
+        }
+        /* 企业信息卡片 */
+        .info-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #2C5364;
+        }
+        .info-card p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        /* 业务范围列表 */
+        .service-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 18px;
+            margin-top: 25px;
+        }
+        .service-list li {
+            background: #f0f5f9;
+            padding: 18px 25px;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #2C5364;
+            font-weight: 500;
+            border: 1px solid #e1e8ed;
+            display: flex;
+            align-items: center;
+        }
+        .service-list li::before {
+            content: "•";
+            color: #2C5364;
+            font-weight: bold;
+            margin-right: 12px;
+            font-size: 20px;
+        }
+        /* 联系信息 */
+        .contact-info p {
+            font-size: 17px;
+            line-height: 2;
+            color: #333;
+            margin: 10px 0;
+        }
+        .contact-info strong {
+            color: #2C5364;
+            min-width: 120px;
+            display: inline-block;
+        }
+        /* 底部版权 */
+        footer {
+            background: #0F2027;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 60px;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航 -->
+    <header>
+        <div class="header-container">
+            <h1>安徽新睿为建筑工程有限公司</h1>
+            <p>匠心筑造 · 品质为先 · 铸就精品工程</p >
+        </div>
+    </header>
+
+    <!-- 主体内容 -->
+    <div class="container">
+        <!-- 企业简介 -->
+        <section>
+            <h2>企业简介</h2>
+            <p>安徽新睿为建筑工程有限公司，成立于2021年，是一家集工程施工、设计咨询、项目管理于一体的综合性建筑企业。公司秉持“匠心筑造，品质为先”的核心理念，深耕建筑工程领域，拥有专业的施工团队、完善的质量管理体系与规范的服务流程，致力于为客户打造高品质、高标准的精品工程项目。</p >
+            <p>公司以诚信经营为基石，以精湛工艺为保障，凭借扎实的专业能力与高效的项目执行，为每一项工程保驾护航，助力城市建设与行业高质量发展。</p >
+            <div class="info-card">
+                <p><strong>企业全称：</strong>安徽新睿为建筑工程有限公司</p >
+                <p><strong>统一社会信用代码：</strong>91340102MA2WN8W51D</p >
+                <p><strong>法定代表人：</strong>娄兵兵</p >
+                <p><strong>注册资本：</strong>伍佰万元整</p >
+                <p><strong>成立日期：</strong>2021年02月02日</p >
+            </div>
+        </section>
+
+        <!-- 核心业务 -->
+        <section>
+            <h2>核心业务</h2>
+            <ul class="service-list">
+                <li>建设工程施工总承包</li>
+                <li>建筑劳务分包服务</li>
+                <li>住宅室内装饰装修工程</li>
+                <li>工程管理服务与项目咨询</li>
+                <li>建筑工程机械与设备租赁</li>
+                <li>建筑装饰材料销售</li>
+                <li>普通机械设备安装与维修</li>
+                <li>建筑劳务服务（不含劳务派遣）</li>
+            </ul>
+        </section>
+
+        <!-- 联系我们 -->
+        <section class="contact-info">
+            <h2>联系我们</h2>
+            <p><strong>公司地址：</strong>安徽省合肥市蜀山区五里墩街道淠河路与潜山北路交叉口西100米凤凰城·家家景园三期66幢商2217室</p >
+            <p><strong>联系电话：</strong>13955162933</p >
+            <p><strong>电子邮箱：</strong>13955162933@163.com</p >
+        </section>
+    </div>
+
+    <!-- 底部版权 -->
+    <footer>
+        <p>&copy; 2026 安徽新睿为建筑工程有限公司 版权所有 | 匠心筑造 品质传承</p >
+    </footer>
+</body>
+</html>
